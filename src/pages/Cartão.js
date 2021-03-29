@@ -1,5 +1,6 @@
 import './Pages.css'
 import { Carousel } from 'react-responsive-carousel'
+import {FaWhatsapp} from 'react-icons/fa'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import card1 from '../assets/cartão/card1.jpg'
@@ -23,8 +24,14 @@ function Cartão(){
                     <img src={card4} alt='cartão'/>
                     <img src={card5} alt='cartão'/>
                 </Carousel>
-                <div>
+                <div className='info'>
                     <h1><strong>Cartão chaveiro para interruptor de energia</strong></h1>
+                    <div><strong>R$2,50</strong> cada unidade</div>
+                    <div className='description'><strong>Descrição:</strong> Cartão chaveiro para interruptores saga systems ou para interruptores com acionamento mecânico. </div>
+                    <a className='btnWhatsapp' href='https://wa.me/5548996035040'>
+                <FaWhatsapp/>
+                    <div>Mande uma mensagem</div>
+                </a>
                 </div>
             </div>
         </div>

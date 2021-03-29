@@ -18,6 +18,7 @@ a{
 .product{
     display: flex;
     justify-content: center;
+    align-items: stretch;
 }
 
 .carousel{
@@ -25,3 +26,10 @@ a{
     margin: 30px;
 }
 
+.description{
+    margin-top: 30px;
+}
+
+.info{
+    width: 30%;
+}

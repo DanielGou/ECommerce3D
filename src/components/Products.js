@@ -9,9 +9,9 @@ import card5 from '../assets/cartão/card5.jpg'
 
 function Products(props){
     return(
-        <div className='products'>
+        <div>
             <div id='title'>Produtos</div>
-            <div>
+            <div className='products'>
                 <Card 
                     image={[card1,card2, card3,card4, card5]}
                     title='Cartão chaveiro interruptor de energia'

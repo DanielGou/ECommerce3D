@@ -7,8 +7,10 @@ function Cards(props){
     let arrayIMG = props.image
 
     return(
-        <a href={`/produtos/${props.link}`}>
+        <div>
             <div className='card'>
+                <a id='linkArea' href={`/produtos/${props.link}`}>
+
                 <Carousel  showThumbs={false} autoPlay={true} infiniteLoop={true}>
                     { arrayIMG.map((item)=>{
                         return <img src={item} alt='img' id="img"/>
@@ -17,8 +19,9 @@ function Cards(props){
                 <div className='title'>{props.title}</div>
                 <div>R${props.price} cada unidade</div>
                 <div className='text'>{props.text}</div>
+                </a>
             </div>
-        </a>
+        </div>
         
     )
 }

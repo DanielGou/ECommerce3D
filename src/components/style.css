@@ -44,3 +44,20 @@ a{
     text-decoration: inherit;
     margin: 20px auto;
 }
+
+.products{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 660px){
+    #right{
+        display: none;
+    }
+    .Header{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+    }   
+}
