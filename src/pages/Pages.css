@@ -33,3 +33,30 @@ a{
 .info{
     width: 30%;
 }
+
+@media (max-width: 700px){
+    .product{
+        display: inherit;
+        text-align: center;
+    }
+
+    .carousel{
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .info{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 350px){
+    #linkHome{
+        display: none;
+    }
+
+    .header{
+        text-align: center;
+    }
+}

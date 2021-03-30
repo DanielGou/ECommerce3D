@@ -1,4 +1,5 @@
 import './Pages.css'
+import { Link } from 'react-router-dom'
 import { Carousel } from 'react-responsive-carousel'
 import {FaWhatsapp} from 'react-icons/fa'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -14,7 +15,7 @@ function Cartão(){
         <div>
             <div className='header'>
                 <div>ECommerce3D</div>
-                <a href='/'>Página principal</a>
+                <Link id='linkHome' to={`/`}>Página principal</Link>
             </div>
             <div className='product'>
                 <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true} className='carousel'>

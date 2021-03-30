@@ -17,7 +17,7 @@ function Products(props){
                     title='Cartão chaveiro interruptor de energia'
                     price='2,50'
                     text='text'
-                    link='cartão'
+                    link='cartao'
                 />
             </div>
         </div>
